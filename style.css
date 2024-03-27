@@ -1,0 +1,78 @@
+*{
+    margin: 0px; 
+    /* ye margin hatane k liye use hota hai */
+    font-family: Calibri;
+}
+.container{
+    min-height: 97.4vh;
+    width: 97.5vw;
+    background-color: rgb(187, 187, 250);
+    background: linear-gradient(to right bottom,orange,white,green);
+    border: solid 10px black;
+}
+
+.content{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.image_container img{
+    width: 400px;
+    height: 480px;
+    border-radius: 40%;
+    overflow: hidden;
+}
+
+.topsection{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.heading{
+    margin-top: 25%;    
+}
+.heading h1{
+    
+    font-size: 4rem;
+}
+
+.heading h5{
+    text-align: end;
+    font-size: 2rem;
+}
+
+.midsection{
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.midsection h1{
+    font-size: 85px;
+}
+.midsection p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.botsection{
+    margin-top: 50px;
+}
+.botsection h1{
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+.botsection ul li{
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
